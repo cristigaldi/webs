@@ -1,0 +1,38 @@
+
+
+/*Octavo contenedor*/
+
+.subcontainer> .title7 {
+    border: 1px solid #17fb2a;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    height: 100%;
+}
+
+
+.card7 {
+    height: 32%;
+    margin-bottom: 20px;
+    border: 1px solid #41bcff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*grid
+    display: grid;*/
+}
+
+
+.jump {
+    display: flex;
+}
