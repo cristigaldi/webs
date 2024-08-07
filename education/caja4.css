@@ -1,0 +1,50 @@
+/*Cuarto contenedor*/
+
+.bloque {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 20vw);
+}
+
+.font-size3{
+    font-size: clamp(0.5rem, 0.9rem, 1rem);/*TAMANO MINIMO, tamano preferido, tamano maximo*/
+}
+
+.icono {
+    align-self: flex-end;
+    height: 20%;
+    padding: 10px;
+}
+
+.button1,
+.button2 {
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+.button1 {
+    color: rgb(114, 166, 255);
+}
+
+.button2 {
+    color: rgb(255, 114, 255);
+}
+
+.button1:hover {
+    opacity: 1;
+    outline-style: dotted;
+}
+
+.button2:hover {
+    opacity: 1;
+    outline-style: dotted;
+}
