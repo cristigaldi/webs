@@ -127,8 +127,19 @@ body {
     margin: 30px;
 }
 
+.margin-left{
+    margin-left: 30px;
+}
+.margin-right {
+    margin-right: 30px;
+}
+
+
 /*PADDING*/
 
+.padding-h-15{
+    padding: 15px;
+}
 .padding-h-20{
     padding: 30px;
 }
@@ -137,7 +148,7 @@ body {
 }
 
 .image{
-    display: flex;
+    display: flex; 
     width: 100%;
     height: 100%;
     object-fit: cover; 
@@ -212,10 +223,14 @@ body {
     font-size: 1.25rem;
 }
 
+.vertical-center{
+    align-items: center;
+    justify-content: center;
+}
+
 .font-size2{
     font-size: clamp(0.25rem, 1rem, 1.5rem);/*TAMANO MINIMO, tamano preferido, tamano maximo*/
 }
-
 
 .line-space{
     line-height: 1.5;
