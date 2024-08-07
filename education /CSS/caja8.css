@@ -1,38 +1,17 @@
-
-
 /*Octavo contenedor*/
 
-.subcontainer> .title7 {
-    border: 1px solid #17fb2a;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 50px;
+.bloque8 {
+    width: 73%;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 6vw repeat(3, 12vw);
+
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-    width: 32%;
-    height: 100%;
+.text-title {
+    font-size: clamp(0.5rem, 1.2rem, 1.5rem);
 }
 
 
-.card7 {
-    height: 32%;
-    margin-bottom: 20px;
-    border: 1px solid #41bcff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /*grid
-    display: grid;*/
-}
-
-
-.jump {
-    display: flex;
-}
