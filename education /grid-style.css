@@ -1,0 +1,46 @@
+.bloque-grid-60 {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 20vw);
+}
+
+.bloque-grid-65 {
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 6vw repeat(1, 35vw);
+}
+
+.bloque-grid-73 {
+    width: 73%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 6vw repeat(3, 25vw);
+
+}
+
+/*COMBINAR CELDAS*/
+
+.r-span2 {
+    grid-row: span 2;
+
+}
+
+.c-span2 {
+    grid-column: span 2;
+}
+
+
+.r-span3 {
+    grid-row: span 3;
+
+}
+
+.c-span3 {
+    grid-column: span 3;
+}
