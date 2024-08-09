@@ -9,7 +9,7 @@
 
 }
 
-.green{
+.green {
     border: 5px solid #09f367;
 }
 
@@ -68,171 +68,198 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+
 /*ALTURA*/
 
-.height-250{
+.height-250 {
     height: 250px;
 }
 
-.height-350{
+.height-350 {
     height: 350px;
 }
-.height-400{
+
+.height-400 {
     height: 400px;
 }
 
-.height-550{
+.height-550 {
     height: 550px;
 }
 
 .height-600 {
     height: 600px;
 }
+
 .height-800 {
     height: 800px;
 }
 
 
 /*ANCHO*/
-.width-center-90{
+.width-center-90 {
     width: 90%;
     margin: 0 auto;
 }
-.width-center-80{
+
+.width-center-80 {
     width: 80%;
     margin: 0 auto;
 }
+
 .width-50 {
     width: 50%;
     margin: 0 auto;
 }
 
 
-.width-100{
+.width-100 {
     width: 100%;
 }
 
 
 /*MARGIN*/
 
-.margin-top{
+.margin-top {
     margin-top: 15px;
 }
 
-.margin-10{
+.margin-top30 {
+    margin-top: 90px;
+}
+
+.margin-10 {
     margin: 10px;
 }
 
-.margin-30{
+.margin-30 {
     margin: 30px;
 }
 
-.margin-left{
+.margin-left {
     margin-left: 30px;
 }
+
 .margin-right {
     margin-right: 30px;
 }
 
 
+
 /*PADDING*/
 
-.padding-h-15{
+.padding-h-15 {
     padding: 15px;
 }
-.padding-h-20{
+
+.padding-h-20 {
     padding: 30px;
 }
-.padding-h-50{
+
+.padding-h-50 {
     padding: 50px 0;
 }
 
-.image{
-    display: flex; 
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-}
-
-
 /*FLEX*/
 
-.flex-row{
+.flex-row {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-.flex-column{
+
+.flex-column {
     display: flex;
     flex-direction: column;
 }
 
+.vertical-center {
+    align-items: center;
+    justify-content: center;
+}
+
+
 /*COLORES DE FONDO*/
 
-.background-grey{
+.background-grey {
     background-color: rgb(231, 238, 245);
 }
-.background-blue{
+
+.background-blue {
     background-color: rgba(196, 240, 255, 0.751);
 }
-.background-pink{
+
+.background-pink {
     background-color: rgba(255, 219, 225, 0.735);
 }
 
-.background-blue2{
+.background-blue2 {
     background-color: rgb(175, 227, 255);
 }
 
-.background-yellow{
+.background-yellow {
     background-color: rgb(255, 255, 100);
 }
-.background-yellow2{
+
+.background-yellow2 {
     background-color: rgb(255, 215, 37);
 }
-.background-pink2{
+
+.background-pink2 {
     background-color: pink;
 }
-.background-green{
+
+.background-green {
     background-color: rgb(141, 240, 229);
 }
 
-.background-white{
+.background-white {
     background-color: white;
 }
 
 
 
 /* TEXTO */
-.textcenter{
+.textcenter {
     text-align: center;
 }
-.textright{
+
+.textright {
     text-align: right;
 }
-.textleft{
+
+.textleft {
     text-align: start;
 }
 
-.textend{
+.textend {
     text-align: end;
 }
-.text-transform{
+
+.text-transform {
     text-transform: capitalize;
 }
-.font-size{
+
+.font-size {
     font-size: 1.25rem;
 }
 
-.vertical-center{
-    align-items: center;
-    justify-content: center;
+.font-size-text {
+    font-size: clamp(0.25rem, 1.1rem, 2rem);
 }
 
-.font-size2{
-    font-size: clamp(0.25rem, 1rem, 1.5rem);/*TAMANO MINIMO, tamano preferido, tamano maximo*/
+.font-size-title {
+    font-size: clamp(0rem, 1.5rem, 2rem);
+    /*TAMANO MINIMO, tamano preferido, tamano maximo*/
 }
 
-.line-space{
+.font-size2 {
+    font-size: clamp(0.25rem, 1rem, 1.5rem);
+    /*TAMANO MINIMO, tamano preferido, tamano maximo*/
+}
+
+.line-space {
     line-height: 1.5;
 }
 
@@ -241,7 +268,17 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    background-color: #2ec721;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-round {
+    border-radius: 30px;
 }
 
 /*TITULOS*/
@@ -255,17 +292,43 @@ body {
     gap: 10px;
 }
 
-.title1{
+.title1 {
     text-transform: capitalize;
     color: var(--primary-color);
     font-size: 50px;
     font-weight: bold;
 }
 
-.title-caja4{
+.title-caja4 {
     padding: 0px;
     font-size: 50px;
     font-weight: bolder;
     color: rgb(69, 67, 67);
+}
+
+/*Button*/
+
+button {
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 1;
+    outline-style: dotted;
+}
+
+.button-blue {
+    color: rgb(114, 166, 255);
+}
+
+.button-pink {
+    color: rgb(255, 114, 255);
 }
 
