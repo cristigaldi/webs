@@ -1,0 +1,152 @@
+.subcontainer-caja2 {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    /*FLEX*/
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+/*CSS PARA LAS DOS CAJAS*/
+
+.card-caja2 {
+    padding: 25px;
+}
+
+/*CSS FOTOS*/
+
+.container-foto-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+
+.container-foto-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
+}
+
+.foto-card2 {
+
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+}
+
+
+/*CSS PARA EL TEXTO*/
+
+.title-card2,
+.text-card2 {
+    line-height: 25px;
+    font-weight: 400;
+    text-align: justify;
+
+}
+
+.title-card2 {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+
+/*================== MOBILE ==================*/
+
+
+@media screen and (max-width: 480px) {
+
+
+    .subcontainer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .card-caja2 {
+        margin-left: 5px;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .foto-card2 {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .container-foto-left,
+    .container-foto-right {
+        margin-bottom: 20px;
+    }
+
+    .text-card2 {
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+        
+    }
+
+    .title-card2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+}
+
+
+/*================== TABLET ==================*/
+ 
+@media screen and (min-width:481px) and (max-width:760px) {
+
+
+    .subcontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-caja2 {
+        width: 90%;
+        
+    }
+    .foto-card2{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .text-card2 {
+        text-align: justify;
+        line-height: 1 px;
+    }
+
+}  
+
+/*================== LAPTOP ==================*/
+
+@media screen and (min-width:761px) and (max-width:1024px) {
+   
+
+    .subcontainer {
+        flex-direction: row;
+
+    }
+
+    .text-card2 {
+        text-align: justify;
+    }
+} 
