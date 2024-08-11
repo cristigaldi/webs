@@ -10,14 +10,34 @@
 }
 
 /* BACKGROUND COLORS*/ 
-.background{
+.background-grey{
     background-color: rgba(226, 226, 226, 0.16);
 }
 
+.background-salmon{
+    background-color: #f99d8f;                 
+
+}
+
+.background-darksalmon{
+    background-color: #f67460;
+}
+
+/*=================== BODER RADIUS ====================*/
+
+.box-shadow{
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+}
 
 /*==================== HEIGHT ====================*/ 
 .height-500{
     height: 500px;
+}
+
+/*==================== MARGIN ====================*/ 
+
+.margin-20-0{
+    margin: 20px 0;
 }
 
 
@@ -72,6 +92,31 @@
     object-fit: cover;
 }
 
+/*=================== BODER RADIUS ====================*/
+
+.border-radius12{
+    border-radius: 12px;
+}
+
 .border-radius50{
     border-radius: 50%;
 }
+
+/*=================== TEXTO =========================*/
+
+.line-height24{
+    line-height: 24px;
+}
+
+.font-size24{
+    font-size: 24px;
+}
+
+.font-size50{
+    font-size: 50px;
+}
+
+
+
+
+
