@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #39ff57;
+}
+
+.grid-caja4{
+    border: 5px solid #ff3434;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+
+    /*===== GRID =====
+    display: grid;
+    grid-template-columns: 20vw 20vw; /* ANCHO 
+    grid-template-rows: 5vw 15vw 15vw; /* ALTO 
+    column-gap: 20px; */
+} 
+
+
+/*
+.r-span{
+    grid-row: span 3;
+}*/
+
+/*================== TEXTO =====================*/
+
+.text-container-caja4{
+    width: 25vw;
+    display: flex;
+    position: relative;
+    
+}
+
+.text-box{
+    width: 20vw;
+    padding: 18px;
+    position: absolute;
+    top: 210px;
+    left: -5px;
+    text-align: center;
+    border: 3px solid #4cfe3f;
+    background-color: #e5e5e5;
+
+}
+
+
+.box-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.text {
+
+    font-style: italic;
+    font-size: 0.7rem;
+    line-height: 1.6;
+}
+
+.button{
+    margin-top: 12px;
+    width: 60%;
+    font-size: 10px;
+    background-color: #ffffff;
+    align-items: center;
+    border: none;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+/*================== IMAGENES =====================*/
+
+/* .photo-container{
+    display: flex;
+    position: relative;
+    
+} */
+
+.photo-left-caja4{
+    width: 25vw;
+    height: 40vw;
+    
+}
+
+.photo-right-caja4{
+    width: 23vw;
+    height: 15vw;
+    position: absolute;
+    top: 100px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

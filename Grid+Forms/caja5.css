@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+
+.container {
+    background-color: #d9d9d9;
+    width: 100%;
+    display: flex;
+}
+
+.caja-grid5 {
+    border: 2px solid #ff0000;
+    margin: 0 auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 23vw 23vw 23vw;
+    grid-template-rows: 10vw 7vw 24vw;
+    column-gap: 25px;
+}
+
+.c-span {
+    grid-column: span 3;
+}
+
+.border {
+    border: 1px solid #000;
+}
+
+/*=================== TEXTO ==================== */
+
+ /* TITULO PRINCIPAL DE LA CAJA */
+.title-container-caja5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.title-caja5{
+    font-weight: 500;
+    font-size: 3rem;
+    margin: 20px auto 0;
+}
+
+.subtitle-caja5{
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 9px auto 0;
+}
+
+/* CAJAS DE TEXTO */
+
+.text-container-caja5 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #ffffff; 
+   
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-box {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.text {
+    margin: 14px 0 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.button-caja5 {
+    margin: 22px auto 0;
+    padding: 2px 0;
+    border: none;
+    background-color: transparent;
+    border-style: none none solid;
+    border-color: #fa5958;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+.button-caja5:hover{
+    cursor: pointer;
+    border-color: #000000;
+}
+/*=================== IMAGENES ==================== */
+
+.photo-container-caja5 {
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    position: relative;
+}
+
+.photo-box {
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    width: 60%;
+    height: 180%;
+    position: absolute;
+    bottom: -90%;
+    
+}
+
+.image {
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

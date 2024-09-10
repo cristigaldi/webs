@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    
+}
+
+.form-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f64327;
+    background-color: #ffffff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+.container{
+    background-image: url(img/fondo.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding: 20px;  
+}
+
+.form-container{
+    width: 30%;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    border-bottom: 7px solid #f64327;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #d9d9d9;
+    height: 23vw;
+}
+
+.form-questions{
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f64327;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.form-checkbox{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 34%;
+    margin: 10px 0;
+}
+
+.account:hover , .forgot:hover{
+    cursor: pointer;
+    color: #f6432767;
+    border-bottom: 1px solid #f6432767;
+}
+
+#fusername , #fpassword {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 12px;
+    margin: 4px;
+    
+}
+
+#login{
+    background-color: #f64327;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 12px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

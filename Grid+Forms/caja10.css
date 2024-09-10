@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;    
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    background-image: url(img/aer-min.jpg);
+    background-position: bottom;
+}
+
+.form-container{
+    margin: 0 auto;
+    padding: 30px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 35vw 25vw;
+}
+
+.title-form-container{
+    font-size: 3.4rem;
+    color: #db545a;
+    display: flex;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 60px 15px;
+
+}
+
+.form-title{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: #db545a;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+#fname, #femail, #ftextarea{
+    margin: 10px;  
+    border-style: none none solid;
+    border-color: #db545a; 
+    padding: 10px;    
+}
+
+
+#ftextarea{
+    resize: none;
+    min-height: 36px;
+    form-sizing:content;
+    margin-bottom: 30px;
+}
+
+#fsubmit{
+    background-color: #db545a;
+    color: #ffffff;
+    border: none;
+    width: 45%;
+    margin: 0 auto;
+    padding: 8px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+#fsubmit:hover{
+    background-color: #b54247;
+    cursor: pointer;
+}
