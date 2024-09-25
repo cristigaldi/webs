@@ -1,0 +1,24 @@
+.baking-grid{
+    display: grid;
+    grid-template-columns: 24vw 24vw 24vw;
+    grid-template-rows: 13vw 10vw;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.title-h3{
+margin-bottom: 10px;
+}
+
+.text-p-container2{
+    line-height: 18px;
+}
+
+
+.icono-figure{
+    display: flex;
+    margin-right: 30px;
+    padding: 5px;
+    width: 5vw;
+    height: 5vw;
+}

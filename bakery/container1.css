@@ -1,0 +1,59 @@
+.head-container{
+    width: 100%;
+    background-image: url("assests/img/d0f3edac-474b-42be-b569-946cd98464a7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.container1{
+    padding-left: 160px;
+    display: grid;
+    grid-template-columns: 40vw;
+    grid-template-rows: 5vw 18vw 20vw;
+}
+
+
+/*======== TITULO ==========*/
+
+.head-title{
+    letter-spacing: 2px;
+    width: 100%;
+    align-items: left;
+    
+}
+
+.p-title{
+    font-size: 1.5rem;
+    letter-spacing: 7px;
+    line-height: 70px;
+}
+
+.title-head-container{
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 80%;
+}
+
+
+/*=========== CONTACTAR ===========*/
+
+.contact-container{    
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 11vw 12vw 10vw;
+    grid-template-rows: 20vw;
+    gap: 25px;
+}
+
+
+.contact-title{
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 17px 0;
+}
+
+.text-contact{
+    font-size: 1rem;
+    line-height: 25px;
+}

@@ -1,0 +1,33 @@
+.background-cont-6{
+    background-image: url("img/uyy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-color{
+    color: #fff;
+}
+.grid-cont-6 {
+    display: grid;
+    grid-template-columns: 21vw 21vw 21vw;
+    grid-template-rows: 15vw;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.item{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.title-grid{
+    margin: 5px 0;
+}
+.emoji{
+    margin-right: 5px;
+}
+
+
+ 

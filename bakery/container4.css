@@ -1,0 +1,65 @@
+
+.grid-cont-4{
+    display: grid;
+    grid-template-columns: repeat(4, 17vw);
+    grid-template-rows: 28vw 28vw;
+    margin-bottom: 40px;
+     
+}
+
+.grid-box{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow:  0px 2px 8px rgba(0, 0, 0, 0.279);
+
+}
+
+.fig-cont-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 12vw;
+    height: 11vw;
+}
+.object-cover{
+    object-fit: cover !important;
+}
+
+.bread-card{
+    margin: 10px 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+
+.title-h3{
+    font-size: 0.9rem;
+    letter-spacing:2px;
+    margin-top: 3px;
+}
+
+.text-p{
+    font-size: 0.8rem;
+    color: #525252;
+    font-style: italic;
+    line-height: 18px;
+    margin: 20px 0 ;
+}
+
+.button-cont-4{
+    background-color: transparent;
+    border: none;
+    border-style: none none solid;
+    border-width: 1px;
+
+}

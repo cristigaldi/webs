@@ -1,0 +1,53 @@
+.grid-cont-5{
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 27vw 27vw;
+    grid-template-rows: 18vw 30vw;
+    gap: 30px;
+    
+}
+
+.text-cont-5{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.title-h3-cont5{
+    font-size: 1.5rem;
+    margin: 80px 0 10px;
+}
+
+.p-cont5{
+    padding: 20px;
+    width: 59vw;
+    line-height: 30px;
+}
+
+.butt-cont5{
+    background: transparent;
+    padding:15px 30px;
+    border-radius: 30px;
+    border-width: 0.8%;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.cont-fig{
+    position: relative;
+}
+
+.fig-cont5-right{
+    position: absolute;
+    bottom: -250px;
+}
+
+.fig-cont5-left{
+    position: absolute;
+    bottom: -80px;
+}

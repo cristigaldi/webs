@@ -1,0 +1,31 @@
+.background-cont-8{
+    background-image: url(8ef955c5-6288-4e53-ac9f-43c01939eb09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-cont-8{
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-template-rows: 40vw;
+}
+.cont-8-contact{
+    color: #fff;
+    background-color: #00000065;
+    border-radius: 20px;
+    padding: 30px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 0.9rem;
+    
+}
+
+.title-cont-8{
+    color: #f2952d;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.color{
+    color: #f2952d;
+}
