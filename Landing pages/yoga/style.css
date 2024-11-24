@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* BACKGROUND COLORS*/ 
+.background-grey{
+    background-color: rgba(226, 226, 226, 0.16);
+}
+
+.background-salmon{
+    background-color: #f99d8f;                 
+
+}
+
+.background-darksalmon{
+    background-color: #f67460;
+}
+
+/*=================== BODER RADIUS ====================*/
+
+.box-shadow{
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*==================== HEIGHT ====================*/ 
+.height-500{
+    height: 500px;
+}
+
+/*==================== MARGIN ====================*/ 
+
+.margin-20-0{
+    margin: 20px 0;
+}
+
+
+/*CONTENEDOR PRINCIPAL - SECTION*/
+
+.bigcontainer {
+    width: 100%;
+    display: flex;
+   
+}
+
+/*SEGUNDO CONTENEDOR - DIV*/
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+}
+
+
+
+/*==================== FLEX ====================*/
+
+/*FLEX-ROW PARA QUE SE CENTRE EL CONTAINER - USADO DE MOMENTO SOLO EN LA CAJA 1*/
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+  
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-wrap-spacebetween{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/*=================== IMAGENES ====================*/
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*=================== BODER RADIUS ====================*/
+
+.border-radius12{
+    border-radius: 12px;
+}
+
+.border-radius50{
+    border-radius: 50%;
+}
+
+/*=================== TEXTO =========================*/
+
+.line-height24{
+    line-height: 24px;
+}
+
+.font-size24{
+    font-size: 24px;
+}
+
+.font-size50{
+    font-size: 50px;
+}
+
+
+
+
+
