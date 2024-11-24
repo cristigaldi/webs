@@ -1,0 +1,23 @@
+:root{
+    /*VARIABLES FOR TEXTS*/
+    --font: 1.2rem;
+    --uppercase: uppercase;
+    --font-text: 0.8rem;
+    --font-size-title: 3rem;
+}
+
+/*============== TEXT ===========*/
+
+.font-size-title{
+    font-size: var(--font-size-title);
+}
+.font-size-secundary{
+    font-size:var(--font);
+}
+
+.font-size-text{
+    font-size: var(--font-text);
+}
+.text-uppercase{
+    text-transform: var(--uppercase);
+}
